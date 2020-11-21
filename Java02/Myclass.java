@@ -1,4 +1,4 @@
-public class Main {
+public class Myclass {
   static void myMethod() {
     System.out.println("VarishGautam!");
   }
