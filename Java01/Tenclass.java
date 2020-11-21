@@ -1,4 +1,4 @@
-public class Main {
+public class Tenclass {
   public static void main(String[] args) {
     String[] charts = {"Bar", "Pie", "Hist", "Scatter"};
     for (String i : charts) {
