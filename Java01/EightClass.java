@@ -1,4 +1,4 @@
-public class Main {
+public class EightClass{
   public static void main(String[] args) {
     boolean JavaisFun = true;
     boolean PythonisFun = false;    
