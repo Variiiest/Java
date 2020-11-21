@@ -1,5 +1,5 @@
 //String 
-public class Main {
+public class Sixthclass {
   public static void main(String[] args) {
     String firstName = "John ";
     String lastName = "Doe";
