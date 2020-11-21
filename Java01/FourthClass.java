@@ -1,4 +1,4 @@
-public class Main {
+public class FourthClass {
   public static void main(String[] args) {
     int myInt = 9;
     double myDouble = myInt; // Automatic casting: int to double
