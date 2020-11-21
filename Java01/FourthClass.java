@@ -7,3 +7,7 @@ public class Main {
     System.out.println(myDouble);   // Outputs 9.0
   }
 }
+
+
+
+/////////////////////Manual type casting Next
