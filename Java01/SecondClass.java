@@ -1,4 +1,4 @@
-public class Main {
+public class SecondClass {
   public static void main(String[] args) {
     final int num = 15;
     num = 20; // will generate an error because of final
