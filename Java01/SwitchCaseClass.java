@@ -1,4 +1,4 @@
-public class Main {
+public class SwitchCaseClass {
   public static void main(String[] args) {
     int day = 4;
     switch (day) {
