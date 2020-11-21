@@ -1,4 +1,4 @@
-public class Main {
+public class LoopClass{
   public static void main(String[] args) {
     int i = 0;
     while (i < 10) {
