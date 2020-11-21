@@ -1,4 +1,4 @@
-public class Main {
+public class ElevenClass {
    public static void main(String[] args) {
      int[][] myNum = { {1, 2, 3, 4}, {5, 6, 7} };
      for (int i = 0; i < myNum.length; ++i) {
