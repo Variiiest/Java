@@ -1,4 +1,4 @@
-public class Main {
+public class RecursionClass {
   public static void main(String[] args) {
     int result = sum(10);
     System.out.println(result);
