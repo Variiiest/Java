@@ -1,4 +1,4 @@
-public class Main {
+public class ThirdClass{
   static int plusMethod(int x, int y) {
     return x + y;
   }
