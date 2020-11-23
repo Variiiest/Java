@@ -1,0 +1,76 @@
+1: Inner Class
+
+class OuterClass {
+  int x = 10;
+
+  class InnerClass {
+    int y = 5;
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    OuterClass myOuter = new OuterClass();
+    OuterClass.InnerClass myInner = myOuter.new InnerClass();
+    System.out.println(myInner.y + myOuter.x);
+  }
+}
+
+
+2:Private Inner class 
+
+class OuterClass {
+  int x = 10;
+
+  private class InnerClass {
+    int y = 5;
+  }
+}
+
+public class MyMainClass {
+  public static void main(String[] args) {
+    OuterClass myOuter = new OuterClass();
+    OuterClass.InnerClass myInner = myOuter.new InnerClass();// An error occured due to access of private innerclass
+    System.out.println(myInner.y + myOuter.x);
+  }
+}
+
+
+
+3:Static class
+
+class OuterClass {
+  int x = 10;
+
+  static class InnerClass {
+    int y = 5;
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    OuterClass.InnerClass myInner = new OuterClass.InnerClass();
+    System.out.println(myInner.y+1);
+  }
+}
+
+
+4: Outerclass from innerclass
+class OuterClass {
+  int x = 10;
+
+  class InnerClass {
+    public int myInnerMethod() {// Define a method to access
+      return x;
+    }
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    OuterClass myOuter = new OuterClass();
+    OuterClass.InnerClass myInner = myOuter.new InnerClass();
+    System.out.println(myInner.myInnerMethod());
+  }
+}
+
